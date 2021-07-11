@@ -123,7 +123,7 @@ const setProgressBar = (e) => {
   const clickX = e.offsetX;
   const { duration } = music;
   const currentWidth = (clickX / width) * duration;
-  music.currentTime = currentWidth
+  music.currentTime = currentWidth;
 }
 
 // Event Listeners
